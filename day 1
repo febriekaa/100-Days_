@@ -1,0 +1,15 @@
+
+package pkg100.days;
+
+public class Days {
+
+   
+    public static void main(String[] args) {
+        System.out.println("Hello world");
+        System.out.println("Hello java");
+        System.out.println("Nama : Febri Eka Wahyuni");
+        System.out.println("NIM : D0223012");
+        System.out.println("Kelas : Informatika B");
+    }   
+    
+}
