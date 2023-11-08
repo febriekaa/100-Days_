@@ -9,7 +9,7 @@ public class Day30 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Masukkan kode ukuran celana (S, M, L, X):");
+        System.out.println("Masukkan kode ukuran celana (S, M, L, XL):");
         char kodeUkuran = sc.next().charAt(0);
 
         String ukuranCelana = "";
@@ -25,7 +25,7 @@ public class Day30 {
                 ukuranCelana = "40";
                 break;
             case 'X':
-                ukuranCelana = "42-50";
+                ukuranCelana = "42-45";
                 break;
            
             default:
