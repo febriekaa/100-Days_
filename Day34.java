@@ -12,7 +12,7 @@ public class Day34 {
         // Menampilkan isi array menggunakan loop
         System.out.println("Daftar Hari dalam Seminggu:");
         for (int h = 0; h < namaHari.length; h++) {
-            System.out.println("Hari ke-" + (h + 1) + ": " + namaHari[h]);
+            System.out.println("Hari ke-" + (h + 1) + ": " + namaHari[h]); 
         }
     }
 }
