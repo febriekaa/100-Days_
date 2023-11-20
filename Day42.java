@@ -9,7 +9,7 @@ public class Day42 {
         
         int angka = sc.nextInt();
         
-        for (int i = angka; i <= 100; i+=2) {    
+        for (int i = angka; i <= 99; i+=1) {    
             System.out.println(i);
         }
         }       
