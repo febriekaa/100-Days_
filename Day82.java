@@ -1,0 +1,16 @@
+package day.pkg82;
+public class Day82 {
+
+    public static void main(String[] args) {
+        int[] array = {1, -2, 3, -4, 5, -6, 7, -8, 9, -10};
+
+        // Menentukan nilai positif dalam array
+        System.out.print("Nilai positif dalam array: ");
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] > 0) {
+                System.out.print(array[i] + " ");
+            }
+        }
+    }
+    
+}
